@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header .homePage a{
+    text-decoration: none;
+    color: black;
+    font: 1em sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
