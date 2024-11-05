@@ -47,10 +47,10 @@ const Login: React.FC = () => {
         </div>
         {error && <p className="error-message">{error}</p>}
         <button type="submit">
-            <Link to="/portfolio">Iniciar sesion</Link>
+            <Link to="/dashboard">Iniciar sesion</Link>
         </button>
       </form>
-      <p>¿No tienes una cuenta? <Link to="/register">Regístrate aquí</Link></p>
+      <p>¿No tienes una cuenta? <Link to="/">Regístrate aquí</Link></p>
     </div>
   );
 };
